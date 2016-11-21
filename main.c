@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdint.h>
 #include <inttypes.h>
@@ -19,7 +20,7 @@ int main()
     int i;
     
     for (i = 0; i < 16; i++) {
-        printf("%d => %16"PRId64"\n", i, cats(i));
+        printf("%d => %16" PRIu64 "\n", i, cats(i));
     }
 
     return 0;
